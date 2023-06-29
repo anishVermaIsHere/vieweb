@@ -21,7 +21,8 @@
 
 ![3](https://github.com/anishVermaIsHere/vieweb/assets/97972189/1660e31b-b178-49f1-871c-38d3084e1015)
 
-
+**Figma Image**
+<img width="1440" alt="Podcast Page@2x" src="https://github.com/anishVermaIsHere/vieweb/assets/97972189/85b510fe-884f-433a-831a-7c416d26c554">
 
 # Next JS Info:
 
