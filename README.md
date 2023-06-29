@@ -13,8 +13,13 @@
 6. The figma design also shown below 
 
 
-** App Screenshots**
+**App Screenshots**
 
+![1](https://github.com/anishVermaIsHere/vieweb/assets/97972189/0e8aa6cc-f711-48c8-9804-5e2959adc80e)
+
+![2](https://github.com/anishVermaIsHere/vieweb/assets/97972189/81a0ced5-ba46-4150-8846-b90a7943ce2a)
+
+![3](https://github.com/anishVermaIsHere/vieweb/assets/97972189/1660e31b-b178-49f1-871c-38d3084e1015)
 
 
 
