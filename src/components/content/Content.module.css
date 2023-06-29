@@ -1,0 +1,35 @@
+.container {
+  @apply grid grid-cols-1 md:grid-cols-12 mx-12 lg:mx-[168px] mt-4;
+}
+
+.articleContainer {
+  @apply mt-[73px] mr-[56px] col-span-1 md:col-span-12 xl:col-span-8;;
+}
+
+.articleHeading {
+    @apply text-3xl font-extrabold text-[#1e293b] leading-[46px];
+}
+.articleSubHeading {
+    @apply text-2xl font-extrabold text-[#1e293b] leading-[34px];
+}
+
+.podCastTimeStamp {
+    @apply text-[#1E293B] mr-2;
+}
+.podCastTimeStamp::before {
+    content: '>';
+    color: #64748B;
+    font-size: 10px;
+}
+
+.contributorName {
+   @apply text-[#1E293B] pb-1 mr-2 border-b-2 border-[#1E293B];
+}
+
+.guestContainer {
+  @apply mt-[50px] col-span-1 md:col-span-12 xl:col-span-4;
+}
+
+.guestSection {
+  @apply p-6 bg-[#F1F5F9] rounded-3xl;
+}

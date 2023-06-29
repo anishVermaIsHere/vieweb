@@ -1,0 +1,38 @@
+.bottomSection {
+    @apply mt-[80px] rounded-3xl mx-[12px];
+  background: linear-gradient(315deg, #1e293b 0%, #0f172a 100%);
+}
+
+.bottomCard {
+    @apply p-[40px] lg:p-[80px] overflow-hidden;
+    position: relative;
+}
+
+.cardCircleLg {
+    border-radius: 942.545px;
+    background: rgba(109, 40, 217, 0.72);
+    filter: blur(67.95704650878906px);
+    @apply w-[880px] h-[942px];
+    position: absolute;
+    bottom:0;
+    left:20%;
+
+}
+.cardCircleMd {
+    border-radius: 653px;
+    background: rgba(244, 114, 182, 0.80);
+    filter: blur(67.95704650878906px);
+    @apply absolute w-[500px] h-[500px];
+    position: absolute;
+    bottom:100px;
+    right:80px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+.cardContent {
+    max-width: 550px;
+    z-index: 25;
+}
+.cardHeading {
+  @apply text-[#f1f5f9] text-4xl font-bold leading-[48px];
+}

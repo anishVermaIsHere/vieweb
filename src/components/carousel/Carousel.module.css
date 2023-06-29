@@ -1,0 +1,35 @@
+.carouselSection {
+  @apply relative mt-[80px] bg-[#F1F5F9] rounded-3xl mx-[12px];
+}
+.carouselSlider {
+  @apply flex justify-start items-center gap-[16px] lg:gap-[25px] overflow-x-hidden scroll-smooth;
+}
+
+
+.slide {
+  @apply relative h-[200px] w-[446px] my-[80px];
+  transform: rotate(1deg);
+  flex-shrink: 0;
+  border-radius: 24px;
+  background-size: cover;
+}
+
+.slide:first-child {
+   @apply ml-2 lg:ml-[80px];
+}
+.slide:nth-child(odd) {
+  transform: rotate(1deg);
+}
+
+.slide:nth-child(even) {
+  transform: rotate(-1deg);
+}
+
+.slideBack {
+    position: absolute;
+    background-size: cover;
+}
+.slideContent {
+    margin:18px 20px;
+    position: absolute;
+}
